@@ -12,7 +12,7 @@ public class SuperGreeter {
         System.out.println("Skriv did navn: ");
         Scanner brugerInput = new Scanner(System.in);
         String ditNavn = brugerInput.nextLine();
-        System.out.print("Hej" + ditNavn);
+        System.out.print("Hej med dig! " + ditNavn);
     }
 
 
